@@ -39,6 +39,11 @@
             Presentation,
             Photo
         },
+        mounted() {
+            console.log("AboutMe ==>. ", this.user);
+            console.log("content ==>. ", this.content);
+            console.log("links ==>. ", this.links);
+        }
     }
 </script>
 

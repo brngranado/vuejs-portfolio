@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>{{ user.name }}</h3>
+    <h3>{{ user.name }} {{ user.lastName }}</h3>
     <div class="data"><strong>E-mail:</strong> {{ user.email }}</div>
     <div class="data"><strong>Phone:</strong> {{ user.phone }}</div>
     <div class="data"><strong>City:</strong> {{ user.city }}</div>

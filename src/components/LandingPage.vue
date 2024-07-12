@@ -17,8 +17,9 @@
 <script>
 export default {
   name: "Landing-Page",
-  props: ["user"]
+  props: ["user"],
 };
+
 </script>
 
 <style scoped lang="scss">

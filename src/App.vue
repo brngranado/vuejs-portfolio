@@ -13,13 +13,14 @@
 
 <script>
 import LandingPage from "./components/LandingPage.vue";
-import Description from "./components/Description.vue";
-import Experience from "./components/Experience.vue";
-import Skills from "./components/Skills.vue";
+ import Description from "./components/Description.vue";
+ import Experience from "./components/Experience.vue";
+ import Skills from "./components/Skills.vue";
 import Projects from "./components/Projects.vue";
 import Footer from "./components/Footer.vue";
 
 import userData from "./data.js";
+
 
 export default {
   name: "App",
@@ -38,7 +39,7 @@ export default {
   computed: {
     userData() {
       console.log("userData ==>. ", userData);
-      return userData
+      return userData.userData
     }
   },
   methods: {
